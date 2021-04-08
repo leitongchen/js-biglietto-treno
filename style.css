@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 100px;
+}
+
+.wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding: 100px;
+
+    background-color: rgba(255, 255, 255, .5);
+}
+
+#bg-metro {
+    width: 100%;
+    height: 100vh;
+
+    background-image: url(../js-biglietto-treno/img/departure-platform-371218_1920.jpg);
+
+}
+
+.logo-container {
+    max-width: 100px;
+    margin: auto;
+}
+.logo-img {
+    width: 100%;
+}
