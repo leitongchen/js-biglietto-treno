@@ -1,8 +1,8 @@
-var nrKm = parseInt(prompt("Indica il numero di km che devi percorrere, a partire da 5km"));
+var nrLightYear = parseInt(prompt("Indica il numero di anni luce che vuoi percorrere, a partire da 2."));
 
-if (Number.isNaN(nrKm) || nrKm < 5) {
+if (Number.isNaN(nrLightYear) || nrLightYear < 5) {
 
-    alert("Si prega di inserire un numero di km valido, a partire da 5km.")
+    alert("I pacchetti disponibili partono da 2 anni luce, prego inserire un valore valido.")
 
 } else {
         
@@ -18,10 +18,10 @@ if (Number.isNaN(nrKm) || nrKm < 5) {
 
     }  else {
         
-        document.getElementById("user-info").innerHTML="Devi percorrere " + nrKm + " km e hai "  + userAge + " anni."
+        document.getElementById("user-info").innerHTML="Devi percorrere " + nrLightYear + " anni luce e hai "  + userAge + " anni."
 
-        var costPerKm = 0.21; 
-        var costTicket = nrKm * costPerKm; 
+        var costPerLightYear = 0.21; 
+        var costTicket = nrLightYear * costPerLightYear; 
     
         var promoYoung = costTicket * 20 / 100;
         var promoSenior = costTicket * 40 / 100; 

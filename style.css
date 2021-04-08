@@ -20,7 +20,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     
-    padding: 100px;
+    padding: 50px;
 
     background-color: rgba(255, 255, 255, .7);
 
@@ -30,7 +30,7 @@ h1 {
 #bg-metro {
     width: 100%;
 
-    background-image: url(../js-biglietto-treno/img/departure-platform-371218_1920.jpg);
+    background-image: url(../js-biglietto-treno/img/galaxy.jpg);
     background-repeat: no-repeat;
 }
 
@@ -63,5 +63,30 @@ h1 {
     border-radius: 5px;
 
     padding: 20px 40px;
-    margin: 50px;
+    margin: 50px 0;
+}
+
+.fa-fish {
+    font-size: 2rem;
+
+    color: #e31836;
+    margin-top: 10px;
+}
+
+
+
+@media all and (max-width: 768px) {
+
+    main {
+        padding: 50px;
+    }
+
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .cost-box {
+        margin
+    }
 }
